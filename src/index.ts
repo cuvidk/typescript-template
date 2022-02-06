@@ -19,6 +19,8 @@ const main = () => {
   console.log(
     greet(Greeting.NoFsGiven, { name: process.env.NAME ?? 'teluap', age: 99 }),
   );
+  const p: Person = { name: '123', age: 12 };
+  greet(Greeting.Casual, p);
 };
 
 main();
