@@ -9,8 +9,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./build/index.js",
-    "lint": "eslint '{src}/**'",
-    "prepare": "husky install"
+    "lint": "eslint 'src/**'"
   },
   "devDependencies": {
     "@types/node": "^17.0.15",
