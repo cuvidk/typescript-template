@@ -8,8 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node ./build/index.js",
-    "lint": "eslint 'src/**'",
+    "start": "node ./dist/index.js",
+    "lint": "eslint 'src/**/*.ts'",
     "test": "jest",
     "prepare": "husky install"
   },

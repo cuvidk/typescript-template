@@ -10,7 +10,7 @@
       "name": "Debug Program",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/src/index.ts",
-      "outFiles": ["${workspaceFolder}/build/*.js"],
+      "outFiles": ["${workspaceFolder}/dist/**/*.js"],
       "preLaunchTask": "yarn: build"
     }
   ]
